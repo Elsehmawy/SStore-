@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl
+  
+}
+
+body {
+  
+    font-size: 25pt;
+    background: #ccc;
+} 
+div{
+  margin: 50px 10px 30px 10px;
+  padding: 5px;
+ display: block;
+}
+input {
+  margin: 50px 10px 25px 0;
+  padding: 5px;
+  border: black 5px solid;
+  border-radius: 50px;
+  
+  
+}
+button {
+  width: 50%;
+  
+  margin-bottom: 30px;
+  margin-right: 20%;
+  padding: 10px;
+  background: green;
+  color: #fff;
+  font-size: 30px;
+  border-radius:50px;
+  outline: none;
+  border: none;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+
+#ddd {
+  display: none;
+  border: none;
+  background: blueviolet;
+  
+}
+a {
+  color: #fff;
+  
+}
+#delet {
+  background: darkred;
+  color: indianred;
+  width: 100px;
+}
+#deleteAll{
+    background: darkred
+}
+img {
+  width: 50%;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-right: 20%;
+padding: 10px;
+color: #fff;
+font-size: 30px
+}
+.ttt {
+  width: 100%;
+  text-align: center;
+  background: #687B30;
+  font-weight: bold;
+  
+}
+.labels {
+  margin-bottom:-45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #7B6030;
+}
+#totaal::before {
+  content: " إجمالي المصاريف   :   ";
+  color: #59168B;
+}
+#totalSum:before {
+  content: " إجمالي العهدة  :   ";
+  color: #0C1DAF;
+}
+#tt:before {
+  content: " بــاقي العهــدة    :    ";
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <input placeholder=" التاريخ" id="date" type="date">
+  <input placeholder=" بيـــان " id="txt" size="30px" type="text">
+  <input placeholder="المصروفــــــــات" id="mny" type="number">
+  <input placeholder="العهــــدة" id="num" type="number">
+  <button id="submit" type="submit">submit</button>
+  <table>
+    <thead>
+      <tr>
+        <th>تاريخ</th>
+        <th>بيان</th>
+        <th>المبلغ</th>
+        <th>العهدة</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <!-- سيتم إدراج الصفوف هنا -->
+    </tbody>
+  </table>
+  
+  <div class="labels">
+  <small id="totaal">0</small>
+  <small id="totalSum">0</small>
+  </div>
+  <div class="ttt">
+  <small id="tt">0</small>
+  </div>
+
+  <div id="deleteAllContainer"></div> <!-- إضافة هذا العنصر -->
+
+  <button id="prt" onclick="prnt()">طباعة الصفحة</button>
+  
+  <img src="logo~2.png" alt="logo.png">
+
+  <button id="ddd">
+    <a href="javascript:window.location.reload()" target="_self">اضغط هنا لتحديث الصفحة</a>
+  </button>
+
+  <script src="bb.js" defer></script>
+</body>
+
+</html>
